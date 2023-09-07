@@ -1,6 +1,6 @@
 const arrows = document.querySelectorAll(".arrow");
 const movieLists = document.querySelectorAll(".movie-list");
-
+// lets go
 arrows.forEach((arrow, i) => {
     const listLength = movieLists[i].querySelectorAll("img").length;//checking all the images in one line for the number of click
     let counter = 0;
